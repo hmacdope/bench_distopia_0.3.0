@@ -1,0 +1,19 @@
+2024-12-03T21:08:40+11:00
+Running ./_skbuild/linux-x86_64-3.10/cmake-build/libdistopia/bench
+Run on (32 X 5881 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x16)
+  L1 Instruction 32 KiB (x16)
+  L2 Unified 1024 KiB (x16)
+  L3 Unified 32768 KiB (x2)
+Load Average: 0.92, 2.39, 2.13
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+
+Config: emu128:0 scalar:0 static:0 all_attain:0 is_test:0
+Compiled HWY_TARGETS:   AVX3_SPR AVX3_ZEN4 AVX3 AVX2 SSE4 SSSE3 SSE2
+HWY_ATTAINABLE_TARGETS: AVX3_SPR AVX3_ZEN4 AVX3 AVX2 SSE4 SSSE3 SSE2 SCALAR
+HWY_BASELINE_TARGETS:   SSE2 SCALAR
+HWY_STATIC_TARGET:      SSE2
+HWY_BROKEN_TARGETS:     Unknown
+HWY_DISABLED_TARGETS:  
+Current CPU supports:   AVX3_ZEN4 AVX3_DL AVX3 AVX2 SSE4 SSSE3 SSE2 EMU128 SCALAR
